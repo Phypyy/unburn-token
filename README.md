@@ -1,6 +1,6 @@
 # Color
 
-### Color anatomy
+## Color anatomy
 
 Unburn’s default themes are derived from the fire color palette. The cool gray family is dominant in the default themes, making use of subtle shifts in value to organize content into distinct zones
 
@@ -10,7 +10,7 @@ The core orange family serves as the primary action color across all products an
 
 ###
 
-### Layering model
+## Layering model
 
 Colors in the cool gray palette are layered on top of each other to create depth and spatial associations. The layering model defines the logic of how colors stack on top of each other in a UI when using the Carbon themes. Aspects of the layering model are built directly into the themes, color tokens, and components.
 
@@ -20,7 +20,7 @@ In the dark themes, layers become one step lighter with each added layer.
 
 ### &#x20;<a href="#implementing-color" id="implementing-color"></a>
 
-### Implementing color <a href="#implementing-color" id="implementing-color"></a>
+## Implementing color <a href="#implementing-color" id="implementing-color"></a>
 
 Unburn uses tokens and themes to manage color. Tokens are role-based, and themes specify the UI's color values that serve those roles.
 
@@ -33,7 +33,7 @@ Unburn uses tokens and themes to manage color. Tokens are role-based, and themes
 
 ###
 
-### Theme
+## Theme
 
 Themes serve as an organizational framework for color in Unburn, with a theme based on a specific primary background color. And get their names from their background color.
 
@@ -51,7 +51,7 @@ In the dark themes, layers become one step lighter with each added layer.
 
 ###
 
-### Tokens
+## Tokens
 
 Tokens are methods of applying color in a consistent, reusable, and scalable way. They help us abstract how we use color from the values themselves. They are used in place of hard-coded values, like hex codes. Tokens allow for value changes to be made at scale, making design language changes easy to implement, as well as making possible color functionalities like inline theming and light or dark mode.
 
